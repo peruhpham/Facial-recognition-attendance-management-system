@@ -1,0 +1,41 @@
+body {
+  /* background-image: url("/img/background.jpg"); */ /* Đã comment out */
+  /* background-size: cover; */ /* Xóa/Comment out vì đã chuyển sang GlobalStyles */
+  /* background-position: center; */ /* Xóa/Comment out vì đã chuyển sang GlobalStyles */
+  /* background-repeat: no-repeat; */ /* Xóa/Comment out vì đã chuyển sang GlobalStyles */
+  /* min-height: 100vh; */ /* Xóa/Comment out vì đã chuyển sang GlobalStyles */
+  /* margin: 0; */ /* Xóa/Comment out vì đã chuyển sang GlobalStyles */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Bạn có thể thêm các style khác cho form đăng nhập tại đây */
+.login-container {
+  /* Ví dụ: thêm style cho container chính nếu cần */
+}
+
+.login-paper {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ) !important; /* Thêm chút trong suốt cho Paper để thấy nền */
+  padding: 32px !important; /* Tăng padding */
+  border-radius: 12px !important; /* Bo góc nhiều hơn */
+}
+
+/* Keyframes cho animation fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px); /* Hiệu ứng trượt nhẹ lên */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

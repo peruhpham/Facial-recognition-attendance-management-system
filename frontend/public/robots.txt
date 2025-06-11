@@ -1,0 +1,7 @@
+# Cho phép tất cả crawler
+User-agent: *
+Allow: /
+
+# Không cho phép truy cập vào thư mục /models chứa mô hình ML
+User-agent: *
+Disallow: /models/
